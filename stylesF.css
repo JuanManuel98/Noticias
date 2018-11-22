@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.menu-container {
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+}
+
+.menu {
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+}
+.a{
+	padding: 20px;
+}
+.page{
+	font-family: "Century Gothic";
+}
+
+@media only screen and (max-width: 400px){
+	body {
+		background-color: #F09A9D;
+	}
+	.menu-container{
+		color: #000;
+		background-color: red; 
+	}
+	
+	.menu{
+		font-size: 15px;
+		font-family: "Century Gothic";
+	}
+	a:link,
+	a:visited{
+		text-decoration: none;
+		color: #000;
+		display: block;
+	}
+
+	a:hover{
+		color: #fff;
+		background-color: #F09A9D;
+	
+	}
+	.JEKA{
+		color: white;
+	}
+	
+	h1{
+		margin-top:60px;
+		margin-left: 15px;
+		font-size: 16px;
+	}
+	
+	
+	h3{
+		margin-top:55px;
+		margin-left: 10px;
+	}
+	.imagen{
+		width: 20%;
+		height: 20%;
+		margin: 10px;
+	}
+	h2{
+		font-size: 80%;
+		margin-top: 20px;
+	}
+	p{
+		padding: 0px;
+		font-size: 80%
+	}
+	section{
+		margin-top: 70px;
+		margin-left: 20px;
+	}
+	.publicidad{
+		width: 200px;
+	}
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px){
+	body{
+		background-color: #F5CF8E;
+	}
+	.menu-container{
+		color: #000;
+		background-color: #F7A958; 
+	}
+	.menu{
+		font-size: 17px;
+		font-family: "Century Gothic";
+		color: #fff;
+	}
+	a:link,
+	a:visited{
+		text-decoration: none;
+		color: #000;
+		display: block;
+	}
+
+	a:hover{
+		color: #fff;
+		background-color: #F5CF8E;
+	
+	}
+	
+	h1{
+		margin-top:60px;
+		margin-left: 20px;
+	}
+	
+	h3{
+		margin-top:60px;
+		margin-left: 15px;
+	}
+	.imagen{
+		width: 13%;
+		height: 13%;
+		margin: 10px;
+	}
+	h2{
+		font-size: 100%;
+		margin-top: 50px;
+	}
+	p{
+		padding: 0px;
+	}
+	section{
+		margin-top: 70px;
+		margin-left: 20px;
+	}
+	.publicidad{
+		float: right;
+		margin-bottom: 600px;
+		width: 200px;
+	}
+}
+
+@media only screen and (min-width: 961px){
+	body{
+		background-color: #B2D6FF;
+	}
+	.menu-container{
+		color: #fff;
+		background-color: blue; 
+	}
+	.menu{
+		font-size: 20px;
+		font-family: "Century Gothic";
+		color: #fff;
+	}
+	a:link,
+	a:visited{
+		text-decoration: none;
+		color: #000;
+		display: block;
+	}
+	
+	a:hover{
+		color: #fff;
+		background-color: #B2D6FF;
+	
+	}
+	.JEKA{
+		color: white;
+	}
+	
+	h3{
+		margin-top:65px;
+		margin-left: 20px;
+	}
+	.imagen{
+		width: 15%;
+		height: 12%;
+		margin: 15px;
+	}
+	h2{
+		font-size: 120%;
+		margin-top: 50px;
+	}
+	p{
+		padding: 0px;
+	}
+	.imagen2{
+		width: 15%;
+		height: 12%;
+		margin: 15px;
+	}
+	section{
+		margin-top: 120px;
+		margin-left: 20px;
+	}
+	.publicidad{
+		float: right;
+		margin-bottom: 800px;
+		width: 300px;
+	}
+}
